@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HappyPath(failed)">
+    <classes>
+      <class name="TestCase.TestCase">
+        <methods>
+          <include name="TC001_happyPath"/>
+          <include name="closeBrowser"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- TestCase.TestCase -->
+    </classes>
+  </test> <!-- HappyPath(failed) -->
+</suite> <!-- Failed suite [Suite] -->
